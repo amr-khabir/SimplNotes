@@ -1,0 +1,91 @@
+
+ h1 {
+color: #333;
+text-align: center;
+margin-top: 50px;
+}
+div{
+width: 90%;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px;
+border : 10px double #ccc;
+border-radius: 20px;
+margin-left: 0px;
+box-shadow: 5px 5px 5px #888;
+
+}
+ 
+button , #send {
+background-color: #2dda27;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 25px;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+
+}
+
+button:hover,#send:hover {
+background-color: #25780e;
+height: 50px;
+font-size: 30px;
+margin-top:15px;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: #da2727;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px;
+    width: 100%;
+    
+    }
+    
+    a:hover {
+    background-color: #780e0e;
+    height: 50px;
+    font-size: 30px;
+    margin-top:15px;
+    }
+
+#title,#name{
+    width: 90%;
+    margin-top: 15% auto;
+    background-color: #fff;
+    padding: 20px;
+    border-top : 5px solid #ccc;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+
+form {
+width: 92%;
+margin: 15px auto;
+margin-left: 0px;
+background-color: #fff;
+padding: 20px ;
+border: 1px solid #ccc;
+box-shadow: 5px 5px 5px #888;
+text-align: right;
+}
+
+input[type="text"],[type="submit"] {
+padding: 5px;
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+font-size: 16px;
+margin-bottom: 20px;
+}
